@@ -6,7 +6,7 @@ let computerscore = 0;
 let mylist = ["rock", "scissors", "paper"]
 
 for (let roundNum = 1; roundNum <= 3; roundNum++) {
-    let userInput = prompt("Choose one of these three: rock, scissor, paper").toLowerCase()
+    let userInput = prompt("Choose one of these three: rock, scissors, paper").toLowerCase()
 
     let randomValue = Math.random()
     randomValue *= 3;    
