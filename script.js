@@ -9,7 +9,8 @@ for (let roundNum = 1; roundNum <= 3; roundNum++) {
     let userInput = prompt("Choose one of these three: rock, scissors, paper").toLowerCase()
 
     let randomValue = Math.random()
-    randomValue *= 3;    
+    randomValue *= 2
+    randomValue += 1   
     randomValue = Math.round(randomValue)
     let computerChoice = mylist[randomValue]
 
