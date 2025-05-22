@@ -10,7 +10,6 @@ for (let roundNum = 1; roundNum <= 3; roundNum++) {
 
     let randomValue = Math.random()
     randomValue *= 2
-    randomValue += 1   
     randomValue = Math.round(randomValue)
     let computerChoice = mylist[randomValue]
 
